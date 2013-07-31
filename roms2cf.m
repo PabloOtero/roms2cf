@@ -1,4 +1,4 @@
-%function roms2cf(grdname,romsfile,cffile)
+function roms2cf(grdname,romsfile,cffile)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 % 	Create a netcdf his or avg file CF-complaint
@@ -9,11 +9,11 @@
 %       Pablo Otero, June-2010
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-close all;
-clear all;
-grdname='/data/Roms_simula/SimulaRaia/op_conf/Raia_grd3.nc';
-romsfile='/data/Roms_simula/SimulaRaia/op_out/avg/Raia_20120302_avg.nc';
-cffile='/data/Roms_simula/SimulaRaia/op_out/testing_CF_avg.nc';
+%close all;
+%clear all;
+%grdname='/data/Roms_simula/SimulaRaia/op_conf/Raia_grd3.nc';
+%romsfile='/data/Roms_simula/SimulaRaia/op_out/avg/Raia_20120302_avg.nc';
+%cffile='/data/Roms_simula/SimulaRaia/op_out/testing_CF_avg.nc';
 
 % Did you simulate a fixed time of year (climate experiment)?
 climate_experiment=0;
