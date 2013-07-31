@@ -1,4 +1,4 @@
 roms2cf
 =======
 
-Converts Regional Ocean Modelling System output file to CF complaint
+These Matlab scripts convert Regional Ocean Modelling System output files to CF complaint
